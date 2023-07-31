@@ -53,8 +53,8 @@ class Config(object):
     # get a token from @BotFather
     TG_BOT_TOKEN = get_config("TG_BOT_TOKEN", "5994576721:AAE_6iKcCEnbCCnT4u9AezKOMxuVtW_MZgI")
     # The Telegram API things
-    APP_ID = int(get_config("APP_ID", 28888037)) 
-    API_HASH = get_config("API_HASH", "9fbe164b5591df05fbd8577e3b1d6d21")
+    APP_ID = int(get_config("APP_ID", 23322236)) 
+    API_HASH = get_config("API_HASH", "e7cc5d762451079c046202fc1d926677")
     LOG_CHANNEL = get_config("LOG_CHANNEL")
     UPDATES_CHANNEL = get_config("UPDATES_CHANNEL", "mehulbots") # Without `@` LOL
     # Get these values from my.telegram.org
@@ -86,4 +86,3 @@ class Config(object):
     LOG_FILE_ZZGEVC = get_config("LOG_FILE_ZZGEVC", "Log.txt")
     # because, https://t.me/c/1494623325/5603
     SHOULD_USE_BUTTONS = get_config("SHOULD_USE_BUTTONS", False)
-
